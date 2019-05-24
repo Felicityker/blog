@@ -19,7 +19,7 @@
   <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
-<meta name="theme-color" content="#222">
+<meta name="theme-color" content="#fff">
 <script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
 <link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">
 <style>
@@ -57,6 +57,32 @@
 
 
 
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext">
+  
+
+
+
 
 
 
@@ -74,7 +100,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.0.0">
 
 
-  <link rel="mask-icon" href="/images/logo.svg?v=7.0.0" color="#222">
+  <link rel="mask-icon" href="/images/logo.svg?v=7.0.0" color="#fff">
 
 
 
@@ -88,7 +114,7 @@
     root: '/',
     scheme: 'Muse',
     version: '7.0.0',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":true,"onmobile":true},
     fancybox: false,
     fastclick: false,
     lazyload: false,
@@ -241,7 +267,7 @@
 
     
 
-    <a href="/首页/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
+    <a href="/home/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
 
   </li>
         
@@ -258,7 +284,7 @@
 
     
 
-    <a href="/标签/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签</a>
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签</a>
 
   </li>
         
@@ -275,7 +301,7 @@
 
     
 
-    <a href="/分类/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类</a>
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类</a>
 
   </li>
         
@@ -292,7 +318,7 @@
 
     
 
-    <a href="/归档/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档</a>
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档</a>
 
   </li>
         
@@ -309,24 +335,7 @@
 
     
 
-    <a href="/关于/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>关于</a>
-
-  </li>
-        
-        
-        
-          
-          <li class="menu-item menu-item-top">
-
-    
-    
-    
-      
-    
-
-    
-
-    <a href="/top/" rel="section"><i class="menu-item-icon fa fa-fw fa-signal"></i> <br>top</a>
+    <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>关于</a>
 
   </li>
 
@@ -339,9 +348,6 @@
     
 
     
-    
-      
-      
     
       
       
@@ -539,6 +545,8 @@
 
   <aside id="sidebar" class="sidebar">
     
+      <div id="sidebar-dimmer"></div>
+    
     <div class="sidebar-inner">
 
       
@@ -569,7 +577,7 @@
               
                 <div class="site-state-item site-state-posts">
                 
-                  <a href="/归档/">
+                  <a href="/archives/">
                 
                     <span class="site-state-item-count">2</span>
                     <span class="site-state-item-name">日志</span>
@@ -742,7 +750,7 @@
 <span id="busuanzi_container_site_pv">
     <i class="fa fa-user"></i>
     <font size="2.5" face="微软雅黑">
-    访问量<span id="busuanzi_value_site_pv"></span>次
+    总访问量<span id="busuanzi_value_site_pv"></span>次
 </font></span>
 <i class="fa fa-cog fa-spin fa-lg fa-fw"></i>
 <span class="sr-only">Loading... </span>
@@ -789,6 +797,8 @@ setInterval("createtime()",250);
       <div class="back-to-top">
         <i class="fa fa-arrow-up"></i>
         
+          <span id="scrollpercent"><span>0</span>%</span>
+        
       </div>
     
 
@@ -819,6 +829,12 @@ setInterval("createtime()",250);
 
 
 
+
+  
+    
+    
+  
+  <script color="255,255,0" opacity="1" zindex="-2" count="120" src="/lib/canvas-nest/canvas-nest.min.js"></script>
 
 
 
@@ -918,6 +934,9 @@ setInterval("createtime()",250);
   
 
   
+  <script src="/js/src/js.cookie.js?v=7.0.0"></script>
+  <script src="/js/src/scroll-cookie.js?v=7.0.0"></script>
+
 
   
 
@@ -928,7 +947,7 @@ setInterval("createtime()",250);
 
 
 
-<script type="text/javascript" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
+<script type="text/javascript" color="255,255,0" opacity="1" count="120" zindex="-2" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
 
 
 

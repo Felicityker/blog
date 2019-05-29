@@ -3,11 +3,11 @@
   <title>夏博</title>
   
   <subtitle>Felicity</subtitle>
-  <link href="/atom.xml" rel="self"/>
+  <link href="/blogs/atom.xml" rel="self"/>
   
-  <link href="https://felicityker.github.io/"/>
+  <link href="https://felicityker.github.io/blog/"/>
   <updated>2019-05-18T11:18:38.240Z</updated>
-  <id>https://felicityker.github.io/</id>
+  <id>https://felicityker.github.io/blog/</id>
   
   <author>
     <name>Felicity Smoak</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>My first article that write by MarkDone</title>
-    <link href="https://felicityker.github.io/2019/5/18/MarkDone.html"/>
-    <id>https://felicityker.github.io/2019/5/18/MarkDone.html</id>
+    <link href="https://felicityker.github.io/blog/2019/5/18/MarkDone.html"/>
+    <id>https://felicityker.github.io/blog/2019/5/18/MarkDone.html</id>
     <published>2019-05-18T05:51:44.000Z</published>
     <updated>2019-05-18T11:18:38.240Z</updated>
     
@@ -43,8 +43,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://felicityker.github.io/2019/1/4/hello-world.html"/>
-    <id>https://felicityker.github.io/2019/1/4/hello-world.html</id>
+    <link href="https://felicityker.github.io/blog/2019/1/4/hello-world.html"/>
+    <id>https://felicityker.github.io/blog/2019/1/4/hello-world.html</id>
     <published>2019-01-03T16:00:00.000Z</published>
     <updated>2019-05-18T11:19:41.082Z</updated>
     
